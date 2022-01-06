@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledDisplay = styled.div`
-  height: 50vh;
+  height: 52vh;
   width: 100vw;
   overflow-y: scroll;
   color: white;
@@ -28,7 +28,7 @@ div{
   img {
       border-radius: 3px;
       margin: 5px;
-    height: 16.5vh;
+    height: 16vh;
   }
 
   h2 {
@@ -38,6 +38,7 @@ div{
       font-size 11px;
   }
   p{
+      margin: 5px 0px;
       font-size: 10px;
   }
  
@@ -45,7 +46,7 @@ div{
  
       border: none;
       border-radius: 3px;
-      margin-bottom: 2px;
+      margin-bottom: 5px;
       padding: 3px 5px;
       background-color: red;
   }
@@ -68,7 +69,7 @@ div{
 
 export const StyledCart = styled.div`
 
-height: 50vh;
+height: 48vh;
   width: 100vw;
   overflow-y: scroll;
   color: white;
@@ -101,7 +102,7 @@ div{
       display:
   }
   h3{
-      font-size 9px;
+      font-size 11px;
   }
   p {
     font-size: 11px;
